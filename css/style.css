@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ------------------------------ */
+
+main {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.wrapper {
+}
+.block1, .block5 {
+	background: #F5F5F5;
+	padding: 110px 210px 0 210px;
+	font-family: 'Roboto', sans-serif;
+}
+.block1 > span,
+.block5 >span,
+.block9 span {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #5D62B5;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0 33px 0;
+}
+.block1 > span::before,
+.block5 > span::before,
+.block9 span::before {
+	content: "";
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background: url(../img/icon/Overline\ Mark.svg) center no-repeat;
+	margin: 0 9px 0 0;
+	vertical-align: top;
+}
+.block1 > h2,
+.block5 > h2,
+.block9 h2 {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	margin: 0 0 78px 0;
+}
+.block2 {
+	margin: 0 0 46px 0;	
+}
+.block3 {
+	display: inline-block;
+	width: 324px;
+	height: 340px;
+	background: #FFFFFF;
+	border-radius: 20px;
+	padding: 50px 44px 50px 43px;
+	margin: 0 20px 20px 0;
+}
+.block3:hover {
+	box-shadow: 0 5px 10px #4B4B4B;
+}
+.subblock1 .block3:last-child,
+.subblock2 .block3:last-child {
+	margin: 0 0 20px 0;
+}
+.block3 .img {
+	text-align: center;
+	margin: 0 0 33px 0;
+}
+.block3 .item {
+	text-align: center;
+}
+.block3 .title,
+.block7 .title {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color: #F2726F;
+	margin: 0 0 20px 0;
+}
+.block3 .text,
+.block7 .text {
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+}
+.block4 {
+	text-align: center;
+}
+.block4 > a {
+	display: inline-block;
+	padding: 9px 20px;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	color: #fff;
+	background: #F2726F;
+	border-radius: 8px;
+}
+.block5 {
+	padding: 86px 210px 122px 210px;
+}
+.block5 > h2 {
+	margin: 0 0 68px 0;
+}
+.block7 {
+	display: inline-block;
+	width: 324px;
+	height: 148px;
+	
+}
+.block7:not(:last-child) {
+	margin: 0 20px 0 0;
+}
+.block7 .img {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 23px 0 0;
+	width: 63px;
+}
+.block7 .item {
+	display: inline-block;
+	vertical-align: top;
+	width: 234px;
+}
+.block7 .text {
+	text-align: left;
+}
+.block8 {
+	padding: 0 210px 0 210px;
+	font-family: 'Roboto', sans-serif;
+}
+.block9 {
+	color: #fff;
+}
+.block9 .text {
+	width: 411px;
+	display: inline-block;
+	padding: 192px 0 0 0;
+	margin: 0 105px 0 0;
+}
+.block9 span {
+	margin: 0 0 31px 0;
+	color: #fff;
+}
+.block9 span::before {
+	background: url(../img/icon/Overline\ Mark1.svg) center no-repeat;
+}
+.block9 h2 {
+	margin: 0;
+}
+.block9 .img {
+	background: url(../img/pexels-photo.jpg) 0 0 no-repeat;
+	width: 498px;
+	height: 315px;
+	display: inline-block;
+	border-radius: 40px;
+}
+.block10 {
+	background: #29C3BE;
+	margin: -235px -210px 0 -210px;
+	padding: 320px  210px 134px 210px;
+}
+.block12 {
+	display: inline-block;
+	width: 237px;
+	height: 76px;
+}
+.block12:not(:last-child) {
+	margin: 0 20px 0 0;
+}
+.block12 .img {
+	display: inline-block;
+	margin: 0 11px 0 0;
+	vertical-align: top;
+}
+.block12 .item {
+	display: inline-block;
+	vertical-align: top;
+}
+.block12 .title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #fff;
+	margin: 0 0 3px 0;
+}
+.block12 .text {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #5D62B5;
+}
